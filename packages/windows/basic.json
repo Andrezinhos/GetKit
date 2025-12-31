@@ -1,0 +1,30 @@
+[
+    { 
+        "name": "firefox-pt", 
+        "fallback_url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=pt-BR" 
+    }, 
+    { 
+        "name": "firefox-en", 
+        "fallback_url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US" 
+    },
+    { 
+        "name": "7zip", 
+        "fallback_url": "https://www.7-zip.org/a/7z2400-x64.exe" 
+    },
+    { 
+        "name": "chrome", 
+        "fallback_url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe" 
+    },
+    {
+        "name": "VLC",
+        "fallback_url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe"
+    },
+    {
+        "name": "libre-office",
+        "fallback_url": "https://download.documentfoundation.org/libreoffice/stable/25.8.4/win/x86_64/LibreOffice_25.8.4_Win_x86-64.msi"
+    },
+    {
+        "name": "discord",
+        "fallback_url": "https://discord.com/api/download?platform=win"
+    }
+]

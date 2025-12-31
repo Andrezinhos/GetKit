@@ -1,0 +1,31 @@
+[
+    { 
+        "name": "python", 
+        "fallback_url": "https://www.python.org/ftp/python/3.13.1/python-3.13.1-amd64.exe" 
+    },
+    {
+        "name": "java",
+        "fallback_url": "https://github.com/adoptium/temurin21-binaries/releases/latest/download/OpenJDK21U-jdk_x64_windows_hotspot.zip"
+    },
+    {
+        "name": "git-win",
+        "fallback_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe"
+    },
+    {
+        "name": "vscode",
+        "fallback_url": "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
+    },
+    { 
+        "name": "vstudio", 
+        "fallback_url": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=stable&version=VS18&source=VSLandingPage&cid=2030:9ef311bcb7b340388402f08645e5014e" 
+    },
+    {
+        "name": "Notepad++",
+        "repo": "notepad-plus-plus/notepad-plus-plus",
+        "asset_name": "npp.8.9.Installer.exe"
+    },
+    { 
+        "name": "nodejs", 
+        "fallback_url": "https://nodejs.org/dist/latest/node-v22.x-x64.msi" 
+    }
+]

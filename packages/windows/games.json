@@ -1,0 +1,10 @@
+[
+    { 
+        "name": "steam", 
+        "fallback_url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" 
+    },
+    { 
+        "name": "epic-launcher", 
+        "fallback_url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi", "category": "games" 
+    }
+]

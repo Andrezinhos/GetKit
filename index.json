@@ -5,15 +5,6 @@
     "asset_name": "npp.8.9.Installer.exe"
   },
   {
-    "name": "7zip",
-    "repo": "mcmilk/7-Zip",
-    "asset_name": "7z2300-x64.exe"
-  },
-  {
-    "name": "VLC",
-    "fallback_url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe"
-  },
-  {
     "name": "vscode",
     "fallback_url": "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
   },

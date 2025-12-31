@@ -1,0 +1,18 @@
+[
+    {
+        "name": "gimp",
+        "fallback_url": "https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.6-x86_64.AppImage"
+    },
+    {
+        "name": "inkscape",
+        "fallback_url": "https://inkscape.org/gallery/item/53371/Inkscape-e7c3fd1-x86_64.AppImage"
+    },
+    {
+        "name": "krita",
+        "fallback_url": "https://download.kde.org/stable/krita/5.2.14/krita-5.2.14-x86_64.appimage"
+    },
+    {
+        "name": "audacity",
+        "fallback_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-linux-3.7.7-x64-22.04.AppImage"
+    }
+]

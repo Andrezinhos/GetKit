@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -84,15 +85,17 @@ func fetchFromRepo(repo, assetName string) {
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Println("Use: sqcp download <software>")
+		fmt.Println("Use: help to see commands")
 		return
 	}
 
 	cmd := strings.ToLower(os.Args[1])
-	requested := strings.ToLower(os.Args[2])
+	osFlag := strings.TrimPrefix(os.Args[2], "-")
+	category := strings.TrimPrefix(os.Args[3], "-")
+	requested := strings.ToLower(os.Args[4])
 
 	if cmd == "-v" {
-		fmt.Println("Charger v0.2.0 - SQC Tech")
+		fmt.Println("GetKit Package Manager v0.3.0 - SQC Tech")
 		return
 	}
 	if cmd != "get" {
@@ -100,7 +103,22 @@ func main() {
 		return
 	}
 
-	file, err := os.Open("C:\\SQCPlus\\index.json")
+	osMap := map[string]string{
+		"win":   "windows",
+		"linux": "linux",
+		"mac":   "macos",
+	}
+
+	osFolder, ok := osMap[osFlag]
+	if !ok {
+		fmt.Println("Invalid System")
+		return
+	}
+
+	jsonPath := filepath.Join("C:\\GetKit\\packages", osFolder, category+".json")
+	fmt.Println("Loading catalog:", jsonPath)
+
+	file, err := os.Open(jsonPath)
 	if err != nil {
 		panic(err)
 	}
@@ -129,7 +147,7 @@ func main() {
 				if err := Dowloader(s.Fallback, filePath); err != nil {
 					fmt.Println("Error to Download:", err)
 				} else {
-					fmt.Println("Download Complete: ", s.Name)
+					fmt.Println("Download Complete:", s.Name)
 				}
 			}
 			break

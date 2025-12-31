@@ -1,0 +1,26 @@
+[
+    {
+        "name": "blender",
+        "fallback_url": "https://download.blender.org/release/Blender5.0/blender-5.0.1-windows-x64.msi"
+    },
+    {
+        "name": "gimp",
+        "fallback_url": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.6-setup-1.exe"
+    },
+    {
+        "name": "inkscape",
+        "fallback_url": "https://inkscape.org/gallery/item/53372/inkscape-1.4_2024-10-09_e7c3fd1-x64.exe"
+    },
+    {
+        "name": "krita",
+        "fallback_url": "https://download.kde.org/stable/krita/5.2.14/krita-5.2.14-setup.exe"
+    },
+    {
+        "name": "audacity",
+        "fallback_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-win-3.7.7-64bit.exe"
+    },
+    { 
+        "name": "obs-studio",
+        "fallback_url": "https://github.com/obsproject/obs-studio/releases/download/32.0.4/OBS-Studio-32.0.4-Windows-x64-Installer.exe" 
+    }
+]

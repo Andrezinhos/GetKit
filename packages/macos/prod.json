@@ -1,0 +1,22 @@
+[
+    {
+        "name": "gimp",
+        "fallback_url": "https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.6-arm64.dmg"
+    },
+    {
+        "name": "inkscape",
+        "fallback_url": "https://inkscape.org/gallery/item/53375/Inkscape-1.4.0-arm64.dmg"
+    },
+    {
+        "name": "krita",
+        "fallback_url": "https://download.kde.org/stable/krita/5.2.14/krita-5.2.14.dmg"
+    },
+    {
+        "name": "audacity",
+        "fallback_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-macOS-3.7.7-universal.dmg"
+    },
+    { 
+        "name": "obs-studio", 
+        "fallback_url": "https://github.com/obsproject/obs-studio/releases/download/32.0.4/OBS-Studio-32.0.4-macOS-Apple.dmg" 
+    }
+]
