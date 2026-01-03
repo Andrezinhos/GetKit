@@ -8,7 +8,7 @@
         "fallback_url": "https://github.com/adoptium/temurin21-binaries/releases/latest/download/OpenJDK21U-jdk_x64_windows_hotspot.zip"
     },
     {
-        "name": "git-win",
+        "name": "git",
         "fallback_url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe"
     },
     {

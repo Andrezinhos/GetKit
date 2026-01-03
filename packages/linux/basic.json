@@ -1,0 +1,4 @@
+{ 
+    "name": "chromium", 
+    "fallback_url": "https://download-chromium.appspot.com/dl/Linux_x64?type=snapshots" 
+}

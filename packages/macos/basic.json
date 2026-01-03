@@ -1,0 +1,4 @@
+{ 
+    "name": "chromium", 
+    "fallback_url": "https://download-chromium.appspot.com/dl/Mac_Arm?type=snapshots" 
+}

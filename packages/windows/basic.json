@@ -15,6 +15,10 @@
         "name": "chrome", 
         "fallback_url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe" 
     },
+    { 
+        "name": "chromium", 
+        "fallback_url": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots" 
+    },
     {
         "name": "VLC",
         "fallback_url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe"
