@@ -115,7 +115,7 @@ func main() {
 		return
 	}
 
-	jsonPath := filepath.Join("C:\\GetKit\\packages", osFolder, category+".json")
+	jsonPath := filepath.Join("C:\\Freighter\\packages", osFolder, category+".json")
 	fmt.Println("Loading catalog:", jsonPath)
 
 	file, err := os.Open(jsonPath)
